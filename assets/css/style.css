@@ -213,7 +213,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .hero-container {
   position: relative;
-  color: white;
   z-index: 2;
   min-width: 300px;
 }
@@ -222,6 +221,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
+  color: #fff;
+}
+#hero h2 {
   color: #fff;
 }
 #hero p {
@@ -249,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
   }
 }
 
@@ -457,6 +459,9 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+.portfolio .portfolio-item li{
+  font-size: 20px;
 }
 .portfolio #portfolio-flters {
   padding: 0;
