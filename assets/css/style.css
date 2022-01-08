@@ -368,7 +368,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -457,7 +457,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .img-border {
+  border-width : 5px;
+  border-style : double; 
+  border-color : #250f0f;
+}
 .portfolio .portfolio-item {
+  padding-right: 50px;
   margin-bottom: 30px;
 }
 .portfolio .portfolio-item li{
